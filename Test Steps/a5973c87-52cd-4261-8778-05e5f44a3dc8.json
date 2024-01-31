@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page parabank index htm",
+        "step 2: At Page parabank index htm login > navigate to Page parabank index htm",
+        "step 3: At Page parabank index htm, input on input password",
+        "step 4: At Page parabank index htm, click on body object",
+        "step 5: At Page parabank index htm, input on input password",
+        "step 6: At Page parabank index htm, click on body object > navigate to Page parabank index html",
+        "step 7: Add visual checkpoint at Page parabank index html"
+    ]
+}

@@ -1,0 +1,13 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+0,Verify Access to Shop Page after Logging In,Navigate to the home page and log in. Access the shop page and verify its content.,"step 1: Navigate to Page home
+step 2: At Page home login > navigate to Page home
+step 3: At Page home, click on hyperlink shop
+step 4: At Page home, click on hyperlink shop > navigate to Page shop
+step 5: Add visual checkpoint at Page shop",High
+1,Verify Access to Parabank Index Page after Logging In,Navigate to the Parabank index page and log in. Enter the password and proceed to the index page. Verify the content of the Parabank index page.,"step 1: Navigate to Page parabank index htm
+step 2: At Page parabank index htm login > navigate to Page parabank index htm
+step 3: At Page parabank index htm, input on input password
+step 4: At Page parabank index htm, click on body object
+step 5: At Page parabank index htm, input on input password
+step 6: At Page parabank index htm, click on body object > navigate to Page parabank index html
+step 7: Add visual checkpoint at Page parabank index html",Trivial
