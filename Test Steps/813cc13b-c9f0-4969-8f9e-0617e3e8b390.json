@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to https://parabank.parasoft.com/",
+        "step 2: Login",
+        "step 3: Click on link 'Shop'",
+        "step 4: Click on link 'Shop' -> Navigate to page 'shop'",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

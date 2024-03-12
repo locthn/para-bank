@@ -1,13 +1,20 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Access to Shop Page after Logging In,Navigate to the home page and log in. Access the shop page and verify its content.,"step 1: Navigate to Page home
-step 2: At Page home login > navigate to Page home
-step 3: At Page home, click on hyperlink shop
-step 4: At Page home, click on hyperlink shop > navigate to Page shop
-step 5: Add visual checkpoint at Page shop",High
-1,Verify Access to Parabank Index Page after Logging In,Navigate to the Parabank index page and log in. Enter the password and proceed to the index page. Verify the content of the Parabank index page.,"step 1: Navigate to Page parabank index htm
-step 2: At Page parabank index htm login > navigate to Page parabank index htm
-step 3: At Page parabank index htm, input on input password
-step 4: At Page parabank index htm, click on body object
-step 5: At Page parabank index htm, input on input password
-step 6: At Page parabank index htm, click on body object > navigate to Page parabank index html
-step 7: Add visual checkpoint at Page parabank index html",Trivial
+1,Verify Shop Page Navigation and Login Functionality,Navigate to the home page and log in. Click on the shop hyperlink and verify the shop page.,"step 1: Navigate to https://parabank.parasoft.com/
+step 2: Login
+step 3: Click on link 'Shop'
+step 4: Click on link 'Shop' -> Navigate to page 'shop'
+step 5: Take full page screenshot as checkpoint",High
+2,Verify Login and Page Navigation at Parabank Index,"Navigate to the Parabank index page and log in. Enter the username and password, then click to access the Parabank index page. Verify the page.","step 1: Navigate to https://parabank.parasoft.com/parabank/index.htm
+step 2: Login
+step 3: Enter input value in input field 'username'
+step 4: Enter input value in input field 'password'
+step 5: Click on input field
+step 6: Click on body  -> Navigate to page 'parabank/index.html'
+step 7: Take full page screenshot as checkpoint",Trivial
+3,Verify Login and Page Navigation at Parabank Login,"Navigate to the Parabank index page and log in. Click on the footer panel, enter the username and password, and then proceed to the Parabank login page. Verify the page.","step 1: Navigate to https://parabank.parasoft.com/parabank/index.htm
+step 2: Login
+step 3: Click on div 'footerPanel'
+step 4: Enter input value in input field 'username'
+step 5: Enter input value in input field 'password'
+step 6: Click on input field  -> Navigate to page 'parabank/login.htm'
+step 7: Take full page screenshot as checkpoint",Trivial
